@@ -8,5 +8,5 @@ project(CameraApp)
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
 
-add_executable(camera main.cpp)
+add_executable(camera src/main.cpp)
 target_link_libraries(camera ${CONAN_LIBS})
