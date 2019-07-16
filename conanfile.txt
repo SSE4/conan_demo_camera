@@ -9,4 +9,4 @@ virtualrunenv
 opencv:shared=True
 
 [imports]
-etc/haarcascades, haarcascade*.xml -> bin
+share/opencv4/haarcascades, haarcascade*.xml -> bin

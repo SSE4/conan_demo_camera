@@ -1,3 +1,4 @@
 .vs
+conan_imports_manifest.txt
 build
 bin
