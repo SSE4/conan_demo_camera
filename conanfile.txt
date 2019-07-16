@@ -4,5 +4,8 @@ opencv/4.1.0@conan/stable
 [generators]
 cmake
 
+[options]
+opencv:shared=True
+
 [imports]
 etc/haarcascades, haarcascade*.xml -> bin
