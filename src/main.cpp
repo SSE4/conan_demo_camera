@@ -27,7 +27,6 @@ int main(int argc, char* argv[])
     // if not success, exit program
     if (cap.isOpened() == false)  {
         cout << "Cannot open the video camera" << endl;
-        cin.get(); //wait for any key press
         return -1;
     } 
 
@@ -41,7 +40,6 @@ int main(int argc, char* argv[])
         if (bSuccess == false) 
         {
         cout << "Video camera is disconnected" << endl;
-        cin.get(); //Wait for any key press
         break;
         }
 
