@@ -3,7 +3,7 @@ import os
 
 class ConanDemoCamera(ConanFile):
    settings = "os", "compiler", "build_type", "arch"
-   requires = "opencv/4.1.0@conan/stable", "AppImageGen/1.0@bincrafters/testing"
+   requires = "opencv/4.1.1@conan/stable", "AppImageGen/1.0@bincrafters/testing"
    generators = "AppImage"
    default_options = {"opencv:shared": True}
    name = "camera"
